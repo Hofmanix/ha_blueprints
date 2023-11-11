@@ -78,7 +78,7 @@ variables:
 trigger:
 - platform: event
   event_type: hue_event
-  data:
+  event_data:
     device_id: !input remote
 action:
   - choose:
